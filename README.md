@@ -1,6 +1,10 @@
-# jwtAuthApp - backend
+Used source from, jwtAuthApp - backend 
+
+
+# Node.JS with IBM i idb-connector - backend
 
 API server for authentication using JWT tokens.
+And uses REST request for fetch data from AS400 (IBM i)
 
 ## Build Setup
 
