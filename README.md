@@ -12,7 +12,7 @@ And uses REST request for fetch data from AS400 (IBM i)
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:4200
+# serve with hot reload at localhost:10002
 $ npm run start
 
 # build for production
