@@ -1,0 +1,46 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API server for authentication using JWT tokens.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dziubson/BAP.git"
+  },
+  "author": "Piotr Dziubiński <piotr9000@vp.pl>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "7.4.4",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.19.0",
+    "core-js": "3.2.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.7.13",
+    "saslprep": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/node": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.0.0",
+    "@babel/plugin-proposal-export-default-from": "7.0.0",
+    "@babel/plugin-transform-async-to-generator": "7.5.0",
+    "@babel/preset-env": "7.5.5",
+    "nodemon": "1.19.1"
+  },
+  "peerDependencies": {
+    "nodemon": "1.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Dziubson/BAP/issues"
+  },
+  "homepage": "https://github.com/Dziubson/BAP#readme"
+}
