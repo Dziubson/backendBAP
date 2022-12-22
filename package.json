@@ -22,7 +22,7 @@
     "core-js": "3.2.1",
     "cors": "2.8.5",
     "express": "4.17.1",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "mongoose": "5.7.13",
     "saslprep": "^1.0.3"
   },
